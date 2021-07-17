@@ -148,9 +148,15 @@ ul.nav-destra li p {
     background-color: #4d4c4c;;
 }
 
+.container-flex-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
 .container-flex-destra {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: right;
 }
 
