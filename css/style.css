@@ -82,15 +82,14 @@ ul {
 nav li {
     color:white;
     padding: 15px 0 20px 15px;
+    display: inline-block;
+    max-width: 165px;
+    min-width: 100px;
 }
 
 nav {
     width: 100%;
     background: linear-gradient(rgb(46, 46, 46), black);
-
-    /* Dimensioni date iniziali  */
-    height: 100px;
-    border: 1px solid white;
 }
 
 .nav-sinistra,
@@ -125,11 +124,6 @@ nav {
 }
 
 
-/* .col-destra {
-    height: 71px;
-    line-height: 45.5px;
-} */
-
 .fa-angle-up {
     height: 50px;
     vertical-align: middle;
@@ -146,5 +140,21 @@ ul.nav-centrale {
 }
 
 
+ul.nav-destra li p {
+    color: red;
+    line-height: 50px;
+    font-size: 1.1em;
+    padding: 0 20px;
+    background-color: #4d4c4c;;
+}
 
+.container-flex-destra {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
 
+a {
+    text-decoration: none;
+    color: white;
+}
